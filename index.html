@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Selector</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Color Selector</h1>
+    <form>
+        <div id="red" class="colors">
+            <label>(R) Vermelho:</label> 
+            <input id="colorRed" type="range" min="0" max="255">
+            <input type="text" id="textInputRed" disabled>
+        </div>
+
+        <div id="green" class="colors">
+            <label>(G) Verde: </label>
+            <input id="colorGreen" type="range" min="0" max="255">
+            <input type="text" id="textInputGreen" disabled>
+        </div>
+
+        <div id="blue" class="colors">
+            <label>(B) Azul: </label>
+            <input id="colorBlue" type="range" min="0" max="255">
+            <input type="text" id="textInputBlue" disabled>            
+        </div>
+
+        <div id="frame"></div>
+
+    </form>
+    <script defer src="./js/scripts.js"></script>    
+</body>
+</html>
